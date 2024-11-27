@@ -20,9 +20,3 @@ elif first == second or first == third or second == third:    #  Если 2-а �
  print('2')
 else:                                                         #  Иначе "0"
  print('0')
-
-
-# gfhgfhgfhgfhgfhgfjn fghgdfgdfg
-
-
-
