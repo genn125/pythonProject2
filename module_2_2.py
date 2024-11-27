@@ -22,7 +22,7 @@ else:                                                         #  Иначе "0"
  print('0')
 
 
-
+# gfhgfhgfhgfhgfhgfjn fghgdfgdfg
 
 
 
