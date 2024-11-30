@@ -1,4 +1,3 @@
-
 #module_2_5.py
 
 # "Цикл for. Элементы списка. Полезные функции в цикле"
@@ -17,7 +16,7 @@ for i in numbers:
     else:
         for j in range(2, i):
 
-            if i % j == 0:                   # Если делится без остатка, то  is_prime = False
+            if i % j == 0:  # Если делится без остатка, то  is_prime = False
                 is_prime = False
                 break
 
@@ -27,5 +26,5 @@ for i in numbers:
         else:
             not_primes.append(i)
 
-print('Простые числа (primes): ' , primes)
-print('Не простые числа (not_primes):  ' , not_primes)
+print('Простые числа (primes): ', primes)
+print('Непростые числа (not_primes):  ', not_primes)
