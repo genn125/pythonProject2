@@ -29,4 +29,3 @@ for i in numbers:
 print('Простые числа (primes): ', primes)
 print('Непростые числа (not_primes):  ', not_primes)
 
-#
