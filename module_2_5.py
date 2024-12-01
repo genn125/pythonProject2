@@ -10,8 +10,8 @@ def get_matrix  (n, m, value):
 
         matrix.append([])       # Добавить пустые вложенные списки в пустой список matrix
 
-        for j in range(m):
-            matrix[i].append(value)
+        for j in range(m):                      
+            matrix[i].append(value)           # Заполнить пустые вложенные списки в списке matrix значениями value
 
     return matrix
 
