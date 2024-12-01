@@ -14,7 +14,7 @@ for i in numbers:
     if i == 1:
         continue
     else:
-        for j in range(2, i):
+        for j in range(2, int(i**0.5)+1):
 
             if i % j == 0:  # Если делится без остатка, то  is_prime = False
                 is_prime = False
@@ -28,3 +28,5 @@ for i in numbers:
 
 print('Простые числа (primes): ', primes)
 print('Непростые числа (not_primes):  ', not_primes)
+
+#
